@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
 }
 .container{
     height: 115vh;
@@ -17,6 +18,14 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.container .left h2{
+     color: #fff;
+     margin-top: 30px;
+     margin-left: 20px;
+     font-size: 30px;
+     font-weight: 700;
+     font-family: 'Playfair Display', serif;
+}
 .container .right{
     width: 60%;
     height: 100%;
@@ -30,7 +39,22 @@
 .right h1{
     margin-left: 60px;
     color: #086DB8;
+    font-family: 'Playfair Display', serif;
 }
+.welcome-pg{
+    position: absolute;
+    bottom: 0;
+    margin-left: 10px;
+    margin-bottom: 80px;
+    color: #fff;
+}
+
+.welcome-pg h4{
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
 form{
     margin-top: 20px;
 }
@@ -45,6 +69,7 @@ label{
     font-size: 16px;
     padding-bottom:10px ;
     padding-top: 10px;
+    font-family: 'Playfair Display', serif;
 }
 input{
     width: 300px;
@@ -60,6 +85,7 @@ select{
     color: #1e1e1e;
     font-weight: 800;
     padding-left: 10px;
+    font-family: 'Playfair Display', serif;
 }
 
 .left-row{
@@ -93,5 +119,5 @@ select{
     background-color: #086DB8;
     color: #fff;
     font-weight: 700;
-    
+    font-family: 'Playfair Display', serif;
 }
