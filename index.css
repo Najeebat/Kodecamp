@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+}
+.container{
+    height: 115vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.container .left{
+    width: 40%;
+    height: 100%;
+  background: linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(background-image.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container .right{
+    width: 60%;
+    height: 100%;
+}
+.logo{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+}
+.right h1{
+    margin-left: 60px;
+    color: #086DB8;
+}
+form{
+    margin-top: 20px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+label{
+    display: block;
+    font-weight: 700;
+    font-size: 16px;
+    padding-bottom:10px ;
+    padding-top: 10px;
+}
+input{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #1e1e1e80;
+}
+select{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #1e1e1e80;
+    color: #1e1e1e;
+    font-weight: 800;
+    padding-left: 10px;
+}
+
+.left-row{
+    width: 50%;
+    margin-left: 60px;
+}
+.right-row{
+    width: 50%;
+}
+.full-input{
+    margin-left: 60px;
+}
+.full-input input{
+    width: 680px;
+    height: 60px; 
+}
+
+.full-input label{
+    padding-top: 20px;
+}
+.btn{
+    display: flex;
+    justify-content: flex-end;
+}
+.btn button{
+    padding: 10px 40px;
+    margin-top: 20px;
+    margin-right: 65px;
+    border-radius: 10px 0;
+    border: 1px; 
+    background-color: #086DB8;
+    color: #fff;
+    font-weight: 700;
+    
+}
